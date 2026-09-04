@@ -13,15 +13,15 @@
          <h1>Nargis Portfolio</h1>
         
          <ul class="navbar">
-            <li><a href="home.html">Home</a></li>
-            <li class="contact"><a href="portfolio.html">Portfolio</a>
-                <div class="contact-text">
-                    <a href="#">Web Design</a>
-                    <a href="#">Web Development</a>
-                    <a href="#">UL/UX Desgin</a>
-                </div>
+            <li><a href="#home">Home</a></li>
+            <li class="contact"><a href="#portfolio">Portfolio</a>
+                <ul class="contact-text">
+                    <li><a href="#">Web Design</a></li> 
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">UL/UX Desgin</a></li>
+                </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#contacttt">Contact</a></li>
         </ul>
 
         <div class="iiicons">
@@ -42,14 +42,16 @@
 <main>
 
     <!--hero Home Page-->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-text">
-            <h4>Hello I'm</h4>
-            <h2>Nargis Aliyar</h2>
+            <h4 >Hello I'm</h4>
+            <div class="tooltip">
+            <h2 class="tooltip-text">Nargis Aliyar</h2>
+            </div>
             <h3>Frontend Web Developer</h3>
             <p>I build clean,responsive and user-friendly websites <br> that help businesses grow.</p>
 
-            <a href="portfolio.html" class="btn">View My Work</a>
+            <a href="#portfolio" class="btn">View My Work</a>
          </div>
 
             <div class="hero-img">
@@ -96,6 +98,7 @@
             </div>
         </div>
    </section>
+
 <!--About Me Section-->
 <section class="about">
     <div class="about-text">
@@ -110,15 +113,128 @@
     </div>
 </section>
 </main>
-<div class="footer">
-    <p class="footer-text">
-        @2026 Nargis Aliyar. All Rights Reserved.
-    </p>
-    <div class="footer-icons">
-        
-    </div>
-</div>
   
+<!--Portfolio Hero section-->  
+    <div class="Phero" id="portfolio">
+          <h1>My Portfolio</h1>
+          <p>Here are some of my recent projects</p>
+    </div>
+
+    <div class="buttonss">
+        
+        <div class="button">
+            <a href="#" class="btnn"> All</a>
+            <a href="#" class="btnn"> Web Design</a>
+            <a href="#" class="btnn"> web Development</a>
+            <a href="#" class="btnn"> Ul/UX Design</a>
+           
+        </div>
+    </div>
+
+    <!-- Portfolio Cards section-->  
+     <section class="allcards">
+        <div class="CARD">
+                <img src="img/1.png" alt="Photo1">
+                <div class="CARD-text">
+                    <h2>Business Website</h2>
+                    <h3>Web Design</h3>
+                </div>
+        </div>
+
+         <div class="CARD">
+                <img src="img/2.png" alt="Photo2">
+                <div class="CARD-text">
+                    <h2>Dashboard Ul</h2>
+                    <h3>Ul/UX Design</h3>
+                </div>
+        </div>
+
+         <div class="CARD">
+                <img src="img/3.png" alt="Photo3">
+                <div class="CARD-text">
+                    <h2>E-commerce Website</h2>
+                    <h3>Web Development</h3>
+                </div>
+        </div>
+
+         <div class="CARD">
+                <img src="img/4.png" alt="Photo1">
+                <div class="CARD-text">
+                    <h2>Personal Portfolio</h2>
+                    <h3>Web Design</h3>
+                </div>
+        </div>
+
+         <div class="CARD">
+                <img src="img/5.png" alt="Photo1">
+                <div class="CARD-text">
+                    <h2>Task Management</h2>
+                    <h3>Ul/UX</h3>
+                </div>
+        </div>
+
+         <div class="CARD">
+                <img src="img/6.png" alt="Photo1">
+                <div class="CARD-text">
+                    <h2>Travel Website</h2>
+                    <h3>Web Development</h3>
+                </div>
+        </div>
+
+        <div>
+      <section class="C-hero">
+        <h2>Get In Touch</h2>
+        <p>Have a project in mind or want to work together? <br> Feel free to contact me. </p>
+      </section>
+
+      <section class="FORM">
+        <form class="form">
+            <label>Your Name</label>
+            <input type="text" placeholder="enter your name">
+             <label>Email Address</label>
+            <input type="text" placeholder="enter your email">
+             <label>Subject</label>
+            <input type="text" placeholder="enter subject">
+             <label>Message</label>
+            <textarea row="3" placeholder="Write your message"> </textarea>
+          
+              <button> Send message </button>
+          
+        </form>
+
+        <div class="email">
+            <div class="emailsss">
+                <dl>
+                    <img src="" alt="">
+                    <dt>Email</dt>
+                    <dd>nargisaliyar86@gmail.com</dd>
+                    <img src="" alt="">
+                    <dt>Phone</dt>
+                    <dd>+93 7753 52665</dd>
+                    <img src="" alt="">
+                    <dt>Location</dt>
+                    <dd>Islamabad Pakistan</dd>
+                    
+                </dl>
+            </div>
+            <hr>
+            <div class="followme">
+
+                <h3>Follow Me</h3>
+                <div class="me-icon">
+                      <i class="fa-brands fa-instagram"></i> 
+
+                       <i class="fa-brands fa-github"></i> 
+
+                       <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+
+            </div>
+        </div>
+      </section>
+      </div>
+
+      
     
 </body>
 </html>
